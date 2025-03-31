@@ -8,62 +8,7 @@
 
 A curated list of awesome Model Context Protocol (MCP) servers.
 
-* [What is MCP?](#what-is-mcp)
-* [Clients](#clients)
-* [Tutorials](#tutorials)
-* [Server Implementations](#server-implementations)
-* [Frameworks](#frameworks)
-* [Utilities](#utilities)
-* [Tips & Tricks](#tips-and-tricks)
-
-## What is MCP?
-
-[MCP](https://modelcontextprotocol.io/) is an open protocol that enables AI models to securely interact with local and remote resources through standardized server implementations. This list focuses on production-ready and experimental MCP servers that extend AI capabilities through file access, database connections, API integrations, and other contextual services.
-
-## Clients
-
-Checkout [awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients/) and [glama.ai/mcp/clients](https://glama.ai/mcp/clients).
-
-> [!TIP]
-> [Glama Chat](https://glama.ai/chat) is a multi-modal AI client with MCP support & [AI gateway](https://glama.ai/gateway).
-
-## Tutorials
-
-* [Model Context Protocol (MCP) Quickstart](https://glama.ai/blog/2024-11-25-model-context-protocol-quickstart)
-* [Setup Claude Desktop App to Use a SQLite Database](https://youtu.be/wxCCzo9dGj0)
-
-## Community
-
-* [r/mcp Reddit](https://www.reddit.com/r/mcp)
-* [Discord Server](https://glama.ai/mcp/discord)
-
-## Legend
-
-* 🎖️ – official implementation
-* programming language
-  * 🐍 – Python codebase
-  * 📇 – TypeScript codebase
-  * 🏎️ – Go codebase
-  * 🦀 – Rust codebase
-  * #️⃣ - C# Codebase
-  * ☕ - Java codebase
-* scope
-  * ☁️ - Cloud Service
-  * 🏠 - Local Service
-* operating system
-  * 🍎 – For macOS
-  * 🪟 – For Windows
-  * 🐧 - For Linux
-
-> [!NOTE]
-> Confused about Local 🏠 vs Cloud ☁️?
-> * Use local when MCP server is talking to a locally installed software, e.g. taking control over Chrome browser.
-> * Use network when MCP server is talking to remote APIs, e.g. weather API.
-
 ## Server Implementations
-
-> [!NOTE]
-> We now have a [web-based directory](https://glama.ai/mcp/servers) that is synced with the repository.
 
 * 📂 - [Browser Automation](#browser-automation)
 * 🎨 - [Art & Culture](#art-and-culture)
